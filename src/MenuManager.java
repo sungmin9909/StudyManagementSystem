@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class StudyManager {
+public class MenuManager {
 
 	public static void main(String[] args) {
 		int num = 0;
@@ -19,7 +19,7 @@ public class StudyManager {
 		switch(num) {
 		case 1:
 		   System.out.print("Study Name:");
-		   String studyId = input.next();
+		   String studyName = input.next();
 		   System.out.print("Subject Name:");
 		   String subjectName = input.next();
 		   break;
@@ -27,8 +27,8 @@ public class StudyManager {
 		case 2:
 		case 3:
 		case 4:
-			System.out.print("Study Id:");
-			String studyId2 = input.next();
+			System.out.print("Study Name:");
+			String studyName2 = input.next();
 			
 		}   
 		}
